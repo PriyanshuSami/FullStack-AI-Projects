@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Event Feedback Survey</h1>
+    <form >
+        <div>
+            <label for ="Event-name"> Event Name:</label>
+            <br>
+            <input type = "text" id="Event-name" name="Event-name" required>
+        </div>
+        <div>
+            <label for = "Name">Your Name:</label>
+            <br>
+            <input type="text" id="Name" name="Name" required>
+        </div>
+        <div>
+            <label for = " Event Rating"> Overall Rating:</label>
+            <br>
+            <select id="Event Rating" name="Event Rating">
+                <option value="1">Poor</option>
+                <option value="2">Fair</option>
+                <option value="3">Good</option>
+                <option value="4">Very Good</option>
+                <option value="5">Excellent</option>
+            </select>
+            </div>
+            <div>
+                <label for = "Recommend">Would you recommend this event to others?</label><br>
+                <input type = "radio" id="Yes" name="Recommend" value="Yes">
+                <label for="Yes">Yes</label>
+                <br>
+                <input type = "radio" id="No" name="Recommend" value="No">
+                <label for="No">No</label>
+            </div>
+        <div>
+            <label for = "Comments">Additional Comments:</label>
+            <br>
+            <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea>
+        </div>
+        
+            <button type="submit">Submit</button>           
+    </form>
+    <hr>
+    <form>
+        
+        <h1>Employee Satisfaction Survey</h1>
+            <div>
+                <label for ="Employee-name"> Employee Name:</label>
+                <br>
+                <input type = "text" id="Employee-name" name="Employee-name" required>
+            </div>
+        <div>
+            <label for = "Department">Department:</label>
+            <br>
+            <input type="text" id="Department" name="Department" required>
+        </div>
+        <div>
+            <label for = "Satisfaction"> Overall Satisfaction:</label>
+            <br>
+            <input type = "radio" id="Very Satisfied" name="Satisfaction" value="Very Satisfied">
+            <label for="Very Satisfied">Very Satisfied</label><br>
+            <input type = "radio" id="Satisfied" name="Satisfaction" value="Satisfied">
+            <label for="Satisfied">Satisfied</label><br>
+            <input type = "radio" id="Neutral" name="Satisfaction" value="Neutral">
+            <label for="Neutral">Neutral</label><br>
+            <input type = "radio" id="Dissatisfied" name="Satisfaction" value="Dissatisfied">
+            <label for="Dissatisfied">Dissatisfied</label><br>
+            <input type = "radio" id="Very Dissatisfied" name="Satisfaction" value="Very Dissatisfied">
+            <label for="Very Dissatisfied">Very Dissatisfied</label><br>
+        </div>
+        <div>
+              <label for = "Work Rating"> How would you rate the work event?</label>
+            <br>
+            <select id="Work Rating" name="Work Rating">
+                <option value="1">Poor</option>
+                <option value="2">Fair</option>
+                <option value="3">Good</option>
+                <option value="4">Very Good</option>
+                <option value="5">Excellent</option>
+            </select>
+        </div>
+        <div>
+            <label for = "Feedback">Suggestions for Improvement:</label>
+            <br>
+            <textarea id="Feedback" name="Feedback" rows="4" cols="50"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+
+    
+</body>
+</html>
