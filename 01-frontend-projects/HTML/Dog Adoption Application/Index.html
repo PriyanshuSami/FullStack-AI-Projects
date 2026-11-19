@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <style>
+        *{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pet Adoption Application</h1>
+    <img src="Dog.jpg" alt="Adopt a Dog" width="300">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+    <fieldset>
+        <legend>Pet Preference</legend>
+        <label for="breed">Type of Pet:</label>
+        <select id="breed" name="breed">
+            <option value="">--Select a Breed--</option>
+            <option value="golden-retriever">Golden Retriever</option>
+            <option value="labrador">Labrador</option>
+            <option value="german-shepherd">German Shepherd</option>
+            <option value="bulldog">Bulldog</option>
+            <option value="beagle">Beagle</option>
+        </select>
+        <br>
+        <label for="age">Age Range:</label>
+        <br>
+        <input type="radio" id="age" name="age" value="Young" required>
+        <label for="age">Young</label>
+        <br>
+        <input type="radio" id="age" name="age" value="Adult" required>
+        <label for="age">Adult</label>
+        <br>
+        <input type="radio" id="age" name="age" value="Senior" required>
+        <label for="age">Senior</label>
+        <br>
+        <label for="comments">Why do you want to adopt a pet?:</label>
+        <br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br>
+
+    </fieldset>
+    <button type="submit">Submit Application</button>
+    <br>
+    <video src="Dog Video.mp4" width="300" height="200" controls no download></video>
+</body>
+</html>
